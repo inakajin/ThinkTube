@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding-top: 50px;
+}
+
+.result {
+  display: flex;
+  background-color: green;
+  margin: 0;
+  border: 1px solid black;
+}
+
+
+.thumbnail {
+/*float:left;*/
+/*width:25%;*/
+/*overflow:hidden;
+border: 1px solid black;*/
+}
+
+.title {
+/*float:right;*/
+/*width:25%;*/
+overflow:hidden;
+font-weight: bold;
+}
