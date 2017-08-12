@@ -15,15 +15,11 @@ body {
 
 
 .thumbnail {
-/*float:left;*/
-/*width:25%;*/
-/*overflow:hidden;
-border: 1px solid black;*/
+padding: 5px;
 }
 
 .title {
-/*float:right;*/
-/*width:25%;*/
 overflow:hidden;
 font-weight: bold;
 }
+
