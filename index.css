@@ -8,7 +8,7 @@ body {
 
 .result {
   display: flex;
-  background-color: green;
+  background-color: #009e00;
   margin: 0;
   border: 1px solid black;
 }
