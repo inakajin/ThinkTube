@@ -11,19 +11,21 @@
         <link href="index.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
-      <main role="main" class="js-output" aria-live="assertive">
+      
         <h1>YouTube Video Search</h1>
-          <form action="#" class="js-search-form" aria-label="search-term">
-            <label for="query"></label>
+        <div class="js-search-results">
+          <form action="#" class="js-search-form" name="youtube-search">
+            <label for="query">Enter a term to search YouTube</label>
             <input type="text" class="js-query" required>
             <button type="submit">Search</button>
           </form>
           
           <h2>Results</h2>
-          <div class="js-search-results">
-            
-          </div>
-      </main>
+          
+        <main role="main" class="js-output" aria-live="assertive" hidden>
+          
+        </main>
+      </div>
       <script src="index.js"></script>
     </body>
 </html>
