@@ -49,7 +49,7 @@ const template = {
 function searchSubmit() {
   $('.js-search-form').submit(event=> {
     event.preventDefault();
-    const searchTarget = $(event.currentTarget).find('.js-query').val().trim();
+    const searchTarget = $(event.currentTarget).find('.js-query').val();
     console.log(searchTarget);
     getDataFromApi(searchTarget,displayYouTubeSearchData);
   });
